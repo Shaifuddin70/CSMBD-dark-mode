@@ -84,18 +84,19 @@ a:hover {
   display: flex;
 }
 table {
-    width: 100%;
- border: 1px solid gray;
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 20;
 }
-th{
-    background-color: #454748;
+th {
+  background-color: #454748;
 }
-td{
-    border: 1px solid gray;
-    padding: 10px;
+td {
+  border: 1px solid gray;
+  padding: 5px;
 }
-.footer{
-    text-align: center;
-    background-color: #454748;
-    padding: 5px;
+.footer {
+  text-align: center;
+  background-color: #454748;
+  padding: 5px;
 }
