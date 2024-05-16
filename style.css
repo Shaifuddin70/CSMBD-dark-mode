@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: rgb(50, 52, 57) !important;
+}
+.container {
+  color: white;
+  background-color: rgb(49, 50, 49);
+  padding: 0 !important;
+  margin: 0;
+}
+.heading {
+  display: flex;
+}
+.heading select {
+  padding: 0px;
+  margin: 0 10px 0 10px;
+  border-radius: 5px;
+  border: 2px solid rgba(125, 125, 125, 0.259);
+  align-items: center;
+  background-color: rgb(100, 100, 100);
+  color: white;
+}
+.setting {
+  margin-left: auto;
+  margin-top: 10px;
+}
+.heading option {
+  padding: 10px;
+}
+
+.logo img {
+  height: 100px;
+  margin-left: auto;
+  object-fit: cover;
+}
+a {
+  text-decoration: none;
+  color: rgb(197, 218, 250) !important;
+  font-size: 13px;
+}
+a:hover {
+  text-decoration: none;
+}
+.manager {
+  color: rgb(255, 255, 255) !important;
+}
+.navigation {
+  background-color: rgb(96, 96, 96);
+  padding: 15px;
+}
+.navigation a {
+  background-color: #454748;
+  color: rgb(255, 255, 255) !important;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+.module {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 15px;
+}
+.module img {
+  height: 50%;
+  width: 50%;
+}
+.common-box {
+  width: 23%;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgb(98, 96, 94);
+  text-align: center;
+  height: 90%;
+  box-shadow: 0px 0px 10px rgb(95, 95, 95);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-sec {
+  display: flex;
+}
+table {
+    width: 100%;
+ border: 1px solid gray;
+}
+th{
+    background-color: #454748;
+}
+td{
+    border: 1px solid gray;
+    padding: 10px;
+}
+.footer{
+    text-align: center;
+    background-color: #454748;
+    padding: 5px;
+}
